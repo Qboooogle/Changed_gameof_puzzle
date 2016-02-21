@@ -1,0 +1,112 @@
+/*
+HW8_game_puzzle of web2.0, qiangbo_14331229,group 11
+the (Fifteen Puzzle) style sheet(Fifteen Puzzle) style sheet. of the game_puzzle
+
+*/
+
+body {
+	background-image: url("obg.png");
+	background-repeat: no-repeat;
+	background-position: 50% 20%;
+	font-family: cursive;
+	font-size: 14pt;
+	background-color:#FFF5EE;
+}
+
+#controls, #overall{
+	width: 400px;
+}
+
+#controls {
+	padding-top: 580px;
+	padding-left:300px;
+	text-align: center;
+}
+
+h1 {
+	position: absolute;
+	left:28%;
+}
+
+/* Used to center the puzzle. */
+#overall {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#puzzleblock {
+}
+/* The area that holds the 15 puzzle pieces. */
+/* This class should be applied to each of the 15 puzzle pieces. */
+/* This class should be applied to a puzzle piece that can be moved. */
+input:hover {
+	border:2px solid greenyellow;
+}
+input {
+	width:80px;
+	height:80px;
+	background-image: url(bg.jpg);
+	-webkit-transition:0.2s;
+  -moz-transition:0.2s;
+	-o-transition:0.2s;
+	transition:0.2s;
+}
+.bg {
+	background-image: url(exbg.png);
+	width:100px;
+	height:100px;
+	position: absolute;
+	left:700px;
+	top:200px;
+}
+.pu_css0{
+	background-position: 0px 0px;
+	
+}
+.pu_css1{
+	background-position:-80px 0px;
+}
+.pu_css2{
+	background-position:-160px 0px;
+}
+.pu_css3{
+	background-position:-240px 0px;
+}
+.pu_css4{
+	background-position:0px -80px;
+}
+.pu_css5{
+	background-position:-80px -80px;
+}
+.pu_css6{
+	background-position:-160px -80px;
+}
+.pu_css7{
+	background-position:-240px -80px;
+}
+.pu_css8{
+	background-position:0px -160px;
+}
+.pu_css9{
+	background-position:-80px -160px;
+}
+.pu_css10{
+	background-position:-160px -160px;
+}
+.pu_css11{
+	background-position:-240px -160px;
+}
+.pu_css12{
+	background-position:0px -240px;
+}
+.pu_css13{
+	background-position:-80px -240px;
+}
+.pu_css14{
+	background-position:-160px -240px;
+}
+.pu_css15{
+	width:80px;
+	height:80px;
+	background-image: url(black.png);
+}
